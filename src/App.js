@@ -22,6 +22,17 @@ function App() {
       </div>
     </div>
   );
+
+  // useEffect(() => {
+  //   return onAuthStateChanged(auth, (user) => {
+  //     if (user) {
+  //       setUser(user);
+  //       console.log("wel user");
+  //     } else {
+  //       console.log("geen user");
+  //     }
+  //   });
+  // }, []);
 }
 
 export default App;
